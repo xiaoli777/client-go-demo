@@ -23,6 +23,8 @@ github.com/json-iterator/go
 github.com/modern-go/concurrent
 # github.com/modern-go/reflect2 v1.0.1
 github.com/modern-go/reflect2
+# github.com/owenliang/k8s-client-go v0.0.0-20190606090414-8bde811a1146
+## explicit
 # github.com/spf13/pflag v1.0.5
 github.com/spf13/pflag
 # golang.org/x/crypto v0.0.0-20200220183623-bac4c82f6975

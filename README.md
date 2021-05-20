@@ -2,15 +2,13 @@
 
 ## Introduction
 
-这个仓库记录一些client-go的用法以及demo。
+这个仓库记录一些 client-go 的用法以及 demo:
 
+common: 连接 Kubernetes 集群
 
+epCounter: 动态监控 Kubernetes 集群中endpoints的数量，并输出 Adresses 和 NotReadyAddresses
 
-common: 连接K8s
-
-epCounter: 动态监控 Kubernetes 集群中endpoints的数量
-
-
+dpCreator: 读取 yaml 文件，转换成 deployment 结构体，修改 replicas 的数量后部署到 k8s 集群
 
 
 
