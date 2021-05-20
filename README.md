@@ -10,6 +10,8 @@ epCounter: 动态监控 Kubernetes 集群中endpoints的数量，并输出 Adres
 
 dpCreator: 读取 yaml 文件，转换成 deployment 结构体，修改 replicas 的数量后部署到 k8s 集群
 
+imageUpdater: 读取 deployment 的 yaml 文件，替换容器的 image ，并更新到 k8s 集群
+
 
 
 ## Reference
