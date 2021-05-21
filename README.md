@@ -12,6 +12,8 @@ dpCreator: 读取 yaml 文件，转换成 deployment 结构体，修改 replicas
 
 imageUpdater: 读取 deployment 的 yaml 文件，替换容器的 image ，并更新到 k8s 集群
 
+podRoller: 滚动升级 deployment 中的 Pods
+
 
 
 ## Reference

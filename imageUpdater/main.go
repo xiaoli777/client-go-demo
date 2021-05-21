@@ -1,10 +1,12 @@
 package main
 
 import (
-	"client-go-demo/common"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+
+	"client-go-demo/common"
+
 	v1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	yaml2 "k8s.io/apimachinery/pkg/util/yaml"
@@ -49,7 +51,7 @@ func main() {
 
 	dp.Spec.Template.Spec.Containers = containers
 
-	// 更新 deployment，替换容器的 image
+	// 更新 deployment, 替换容器的 image
 	if _, err = clientset.AppsV1().Deployments("default").Update(dp); err != nil {
 		goto FAILED
 	}

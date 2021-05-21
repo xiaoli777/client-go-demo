@@ -39,7 +39,7 @@ func main() {
 		goto FAILED
 	}
 
-	// 解析 json 格式， 并存储在结构体 dp 中
+	// 解析 json 格式, 并存储在结构体 dp 中
 	if err = json.Unmarshal(dpJson, dp); err != nil {
 		goto FAILED
 	}
